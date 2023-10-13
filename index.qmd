@@ -1,11 +1,82 @@
 ---
-title: "getrealwiki"
+pagetitle: "Get REAL! 23-24"
+format:
+  html:
+    toc: false
+image: articles/advanced-layout-pdf.png
+search: false
+execute:
+  echo: false
+listing:
+  - id: gallery
+    template: gallery.ejs
+    contents: gallery.yml
+description: |
+  Hub for Get REAL! 
 ---
 
-This is a Quarto website.
+::: {#hero-banner .column-screen}
+::: {.grid .column-page}
+::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
+::: h1
+Hub for Get REAL! 
+:::
+Membership Year 23-24
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+:::
+:::
 
-```{r}
-1 + 1
+<br>
+This website is designed to coordinate information and resources to evaluate the Get REAL! Program
+
+::: {#gallery .column-page}
+:::
+
+```{=html}
+<style>
+#hero-banner {
+  padding-top: 35px;
+  background-color: rgb(237,243,249);
+}
+#quarto-content main { 
+  margin-top: 0;
+  padding-top: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.headline {
+font-size: 1.25em;
+font-weight: 300;
+padding-bottom: 1em;
+}
+.headline p {
+  margin: 0;
+  padding-bottom: 0.2rem;
+}
+.headline a {
+  text-decoration: none;
+}
+.headline ul li {
+  margin-bottom: 0.3em;
+}
+.carousel.card {
+  padding-top: 2em;
+}
+.carousel img {
+  width: 70%;
+  margin-bottom: 110px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  margin-bottom: 110px;
+}
+.carousel-caption {
+  padding-top: 1em;
+}
+.touch {
+  
+}
+</style>
 ```
+---
