@@ -2,7 +2,7 @@
 title: "FAQ"
 ---
 
-### Add a site
+### We need to add a site
 
 Email 📫:[kevin.gilds\@hey.com](mailto:kevin.gilds@hey.com) and confirm what Girl Scout Council you are from.
 
@@ -16,4 +16,4 @@ If the site is still not showing up in the survey form Qualtrics: Email me again
 
 Data is pulled from Qualtrics every weekend usually Saturday.
 
-The data runs through a pipeline
+Results can be found at this [Site](https://kgilds.github.io/getrealwiki/data-entry-report.html "Data Entry Report")
