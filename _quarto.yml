@@ -8,18 +8,17 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - about-get-real.qmd
       - faq.qmd
       - href: data-entry-report.html
         text: Data Entry Report
-      
+      - about-get-real.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    include-after-body: footer.html
 
 editor: visual
 
