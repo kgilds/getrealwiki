@@ -3,34 +3,30 @@
     Developed Shiny Applications
   tiles:
     - title: Girl Survey
-      subtitle: Link to Girl Survey Form 
+      subtitle: Click on the blue link 
       description: Link to Girl Survey Form . 
       href: https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_d4pSdZEED8mpIKG
-      thumbnail: profile.png
-    - title: Adopt a County 
-      subtitle: 
-      href: https://www.linkedin.com/posts/bluebonnet-data_civicdata-civictech-publicdata-activity-6986346062131134464-Icbz?utm_source=share&utm_medium=member_desktop
-      code: https://github.com/nmfs-opensci/quarto_titlepages/blob/main/titlepages/bg-image/article.qmd
-      thumbnail: ky-map.png
-    - title: FL School School Grades
-      subtitle: Shiny Contest
-      href:  https://tidydatabykwg57.shinyapps.io/florida_school_grades/
-      code:  https://github.com/kgilds/fl_school_grades
-      thumbnail: florida.png
-    - title: Florida School Absences
-      subtitle: 
-      href:  https://tidydatabykwg57.shinyapps.io/flabsences/
-      code: https://github.com/kgilds/florida_education
-      thumbnail: school-absences.png
+      thumbnail: /img/girl-survey.png
+    - title: Attendance Tracking
+      subtitle: Click on the blue link
+      href: https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_4HgD6ZY4hR8aUDQ
+      code: 
+      thumbnail: /img/Attendance.png
+    - title: Session Summary Tracking
+      subtitle: Click on the blue link
+      href:  https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_eD1FxWzpJ6z825E
+      code:  
+      thumbnail: /img/Session-Summary.png
+   
 - category: Resources
   description: |
     Resources
   tiles:
     - title: Survey Methods from GSRI
       subtitle: 
-      description: Survey Questions and meaning 
+      description: FAQ
       href: https://gsusa.app.box.com/s/myd2mm5ch25o1l2zv6zwyc8gtyshdbtf/file/97385288160?sb=/details
       code: 
-      thumbnail: post-count-grouped.png
+      thumbnail: /img/Survey-FAQ.png
   
   

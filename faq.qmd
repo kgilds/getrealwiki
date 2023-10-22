@@ -1,0 +1,19 @@
+---
+title: "FAQ"
+---
+
+### Add a site
+
+Email 📫:[kevin.gilds\@hey.com](mailto:kevin.gilds@hey.com) and confirm what Girl Scout Council you are from.
+
+> I strive to add sites within a business day.
+
+If the site is still not showing up in the survey form Qualtrics: Email me again, and I will determine if I can reproduce the error.
+
+> If it is still an issue you may need to work with your IT to clear your web cache.
+
+### Data Entry
+
+Data is pulled from Qualtrics every weekend usually Saturday.
+
+The data runs through a pipeline

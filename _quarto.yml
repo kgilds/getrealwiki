@@ -9,6 +9,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - about-get-real.qmd
+      - faq.qmd
+      - href: data-entry-report.html
+        text: Data Entry Report
+      
 
 format:
   html:

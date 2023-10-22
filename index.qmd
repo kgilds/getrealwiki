@@ -19,16 +19,17 @@ description: |
 ::: {.grid .column-page}
 ::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
 ::: h1
-Hub for Get REAL! 
-:::
-Membership Year 23-24
+Hub for Get REAL!
 :::
 
+Membership Year 23-24
+:::
 :::
 :::
 
 <br>
-This website is designed to coordinate information and resources to evaluate the Get REAL! Program
+
+<h3> This website is designed to coordinate information and resources to evaluate the Get REAL! Program </h3>
 
 ::: {#gallery .column-page}
 :::
@@ -79,4 +80,7 @@ padding-bottom: 1em;
 }
 </style>
 ```
----
+
+------------------------------------------------------------------------
+
+
