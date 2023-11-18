@@ -6,30 +6,29 @@ project:
 website:
   title: "getrealwiki"
   page-navigation: true
-  back-to-top-navigation: true
-  page-footer:
+  navbar:
+      right:
+        - text: "Home"
+          file: index.qmd
+        - text: "About"
+          file: faq.qmd
+        - text: "Reports"
+          file: data-entry-report.html
+          
+page-footer:
     left: |
       Copyright by Kevin Gilds 2023 
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
       [View the source at {{< fa brands github >}} GitHub https://github.com/kgilds/getrealwiki) 
   
-navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - faq.qmd
-      - about-get-real.qmd
-      - href: data-entry-report.html
-        text: Data Entry Report
-
-      
+ 
 
 format:
   html:
     theme: minty
     css: styles.css
-    toc: false
+    toc: true
 
 editor: visual
 
