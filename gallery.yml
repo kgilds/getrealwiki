@@ -3,17 +3,17 @@
     Qualtrics Data Entry Forms
   tiles:
     - title: Girl Survey
-      subtitle: Click on the blue link 
+      subtitle: Click on the green link 
       description: Link to Girl Survey Form . 
       href: https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_d4pSdZEED8mpIKG
       thumbnail: /img/girl-survey.png
     - title: Attendance Tracking
-      subtitle: Click on the blue link
+      subtitle: Click on the green link
       href: https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_4HgD6ZY4hR8aUDQ
       code: 
       thumbnail: /img/Attendance.png
     - title: Session Summary Tracking
-      subtitle: Click on the blue link
+      subtitle: Click on the green link
       href:  https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_eD1FxWzpJ6z825E
       code:  
       thumbnail: /img/Session-Summary.png
