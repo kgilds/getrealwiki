@@ -15,7 +15,7 @@ website:
         - text: "Reports"
           file: data-entry-report.html
           
-page-footer:
+  page-footer:
     left: |
       Copyright by Kevin Gilds 2023 
     right: |
