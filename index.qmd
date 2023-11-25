@@ -29,7 +29,7 @@ Membership Year 23-24
 
 <br>
 
-<h3> This website is designed to coordinate information and resources to evaluate the Get REAL! Program </h3>
+<h3>This website is designed to coordinate information and resources to evaluate the Get REAL! Program</h3>
 
 ::: {#gallery .column-page}
 :::
@@ -82,5 +82,3 @@ padding-bottom: 1em;
 ```
 
 ------------------------------------------------------------------------
-
-

@@ -6,6 +6,7 @@ project:
 website:
   title: "getrealwiki"
   page-navigation: true
+ 
   navbar:
       right:
         - text: "Home"
@@ -14,6 +15,17 @@ website:
           file: faq.qmd
         - text: "Reports"
           file: data-entry-report.html
+          
+  sidebar:
+    - title: "About"
+      collapse-level: 2
+      
+      contents:
+        - faq.qmd
+        - about-evaluator.qmd
+        - about-get-real.qmd
+        
+          
           
   page-footer:
     left: |
