@@ -1,0 +1,13 @@
+---
+title: "Announcements and updates"
+date: 2023-11-25
+categories: [Data Entry Report]
+---
+
+# Log
+
+::: callout-note
+## Updated data
+
+Data Entry report updated 11/25/2023.
+:::

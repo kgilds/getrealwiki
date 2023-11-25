@@ -1,5 +1,6 @@
 ---
 title: "About Get REAL!"
+date: 2023-11-25
 ---
 
 Girl Scout councils facilitate Get REAL!, a statewide mentoring program for middle school girls. The Get REAL! program aims to help at-risk middle school girls achieve academic success by connecting them to caring mentors in the community. Get REAL! is delivered through 30 small group mentoring sessions. The mentoring sessions provide support, intervention, and connection to other resources to help girls achieve success.

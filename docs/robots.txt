@@ -1,0 +1,1 @@
+Sitemap: https://kgilds.github.io/getrealwiki/sitemap.xml

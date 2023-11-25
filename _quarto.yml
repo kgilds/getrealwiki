@@ -6,6 +6,7 @@ project:
 website:
   title: "getrealwiki"
   page-navigation: true
+  site-url: "https://kgilds.github.io/getrealwiki"
  
   navbar:
       right:
@@ -13,6 +14,8 @@ website:
           file: index.qmd
         - text: "About"
           file: faq.qmd
+        - text: "News"
+          file: news/index.qmd
         - text: "Reports"
           file: data-entry-report.html
           

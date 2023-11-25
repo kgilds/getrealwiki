@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/data-entry-report-log.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": []
   }
