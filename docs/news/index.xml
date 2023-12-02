@@ -10,7 +10,7 @@
 <atom:link href="https://kgilds.github.io/getrealwiki/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Updates for Get REAL!</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sat, 25 Nov 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 02 Dec 2023 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Announcements and updates</title>
   <link>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</link>
@@ -30,6 +30,10 @@ Updated data
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p>Data Entry report updated 12/02/2023</p>
+<ul>
+<li>Created Tab Views with Site Report</li>
+</ul>
 <p>Data Entry report updated 11/25/2023.</p>
 </div>
 </div>
@@ -40,7 +44,7 @@ Updated data
  ]]></description>
   <category>Data Entry Report</category>
   <guid>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</guid>
-  <pubDate>Sat, 25 Nov 2023 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 02 Dec 2023 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
