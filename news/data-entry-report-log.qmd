@@ -7,6 +7,14 @@ categories: [Data Entry Report]
 # Log
 
 ::: callout-note
+# Updated Visuals
+
+December 18-December 23
+
+Added visuals to display site information.
+:::
+
+::: callout-note
 ## Updated data
 
 Data Entry report updated 12/02/2023
