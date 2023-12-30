@@ -11,34 +11,46 @@
     "href": "news/index.html",
     "title": "News",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nSaturday December 2, 2023 at 12:00 AM\n\n\nAnnouncements and updates\n\n\nData Entry Report\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nSubscribe!\n\n\n\nYou can use a feed reader like Feedly or use an RSS-to-email service like Blogtrottr to subscribe to these updates and messages. I’ll also e-mail out links to them when there are new updates.\n\n\n\n RSS"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nSaturday December 2, 2023 at 12:00 AM\n\n\nAnnouncements and updates\n\n\nData Entry Report\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nSubscribe!\n\n\n\nYou can use a feed reader like Feedly or use an RSS-to-email service like Blogtrottr to subscribe to these updates and messages. I’ll also e-mail out links to them when there are new updates.\n\n\n\n{{&lt; fa square-rss &gt;}} RSS"
   },
   {
     "objectID": "faq.html",
     "href": "faq.html",
     "title": "FAQ",
     "section": "",
-    "text": "We need to add a site\nEmail 📫:kevin.gilds@hey.com and confirm what Girl Scout Council you are from.\n\nI strive to add sites within a business day.\n\nIf the site is still not showing up in the survey form Qualtrics: Email me again, and I will determine if I can reproduce the error.\n\nIf it is still an issue you may need to work with your IT to clear your web cache.\n\n\n\nData Entry\nData is pulled from Qualtrics every weekend usually Saturday.\nResults can be found at this Site"
+    "text": "We need to add a site\nEmail 📫:kevin.gilds@hey.com and confirm what Girl Scout Council you are from.\n\nI strive to add sites within a business day.\n\nIf the site is still not showing up in the survey form Qualtrics: Email me again, and I will determine if I can reproduce the error.\n\nIf it is still an issue you may need to work with your IT to clear your web cache.\n\n\n\nData Entry\nData is pulled from Qualtrics every weekend usually Saturday.\nResults can be found at this Site",
+    "crumbs": [
+      "About",
+      "FAQ"
+    ]
   },
   {
     "objectID": "about-evaluator.html",
     "href": "about-evaluator.html",
     "title": "About Evaluator",
     "section": "",
-    "text": "Third Party Evaluator\n\n\nHi there 👋🏻: my name is Kevin\n\n🔭I enjoy processing data and automating tasks.\n💬: Ask me about your Get REAL! Data.\n📫: How to reach me: kevin.gilds@hey.com\n😃: Pronouns: he/him\n\n\n\nTechnical Skills"
+    "text": "Third Party Evaluator\n\n\nHi there 👋🏻: my name is Kevin\n\n🔭I enjoy processing data and automating tasks.\n💬: Ask me about your Get REAL! Data.\n📫: How to reach me: kevin.gilds@hey.com\n😃: Pronouns: he/him\n\n\n\nTechnical Skills",
+    "crumbs": [
+      "About",
+      "About Evaluator"
+    ]
   },
   {
     "objectID": "about-get-real.html",
     "href": "about-get-real.html",
     "title": "About Get REAL!",
     "section": "",
-    "text": "Girl Scout councils facilitate Get REAL!, a statewide mentoring program for middle school girls. The Get REAL! program aims to help at-risk middle school girls achieve academic success by connecting them to caring mentors in the community. Get REAL! is delivered through 30 small group mentoring sessions. The mentoring sessions provide support, intervention, and connection to other resources to help girls achieve success.\nThe participating councils include the following organizations:\n\nGirl Scouts of Citrus\nGirl Scout of Gateway Council\nGirl Scouts of Southeast Florida\nGirl Scouts of West Central Florida\n\nThe Girl Scout councils have partner with around 30 schools and after-school sites to deliver the program. Enrollment targets vary by quarter, with steady increases and a peak in Quarter 3 to serve 900 girls."
+    "text": "Girl Scout councils facilitate Get REAL!, a statewide mentoring program for middle school girls. The Get REAL! program aims to help at-risk middle school girls achieve academic success by connecting them to caring mentors in the community. Get REAL! is delivered through 30 small group mentoring sessions. The mentoring sessions provide support, intervention, and connection to other resources to help girls achieve success.\nThe participating councils include the following organizations:\n\nGirl Scouts of Citrus\nGirl Scout of Gateway Council\nGirl Scouts of Southeast Florida\nGirl Scouts of West Central Florida\n\nThe Girl Scout councils have partner with around 30 schools and after-school sites to deliver the program. Enrollment targets vary by quarter, with steady increases and a peak in Quarter 3 to serve 900 girls.",
+    "crumbs": [
+      "About",
+      "About Get REAL!"
+    ]
   },
   {
     "objectID": "news/data-entry-report-log.html",
     "href": "news/data-entry-report-log.html",
     "title": "Announcements and updates",
     "section": "",
-    "text": "Log\n\n\n\n\n\n\nUpdated data\n\n\n\nData Entry report updated 12/02/2023\n\nCreated Tab Views with Site Report\n\nData Entry report updated 11/25/2023."
+    "text": "Log\n\n\n\n\n\n\nUpdated Visuals\n\n\n\nDecember 18-December 23\nAdded visuals to display site information.\n\n\n\n\n\n\n\n\nUpdated data\n\n\n\nData Entry report updated 12/02/2023\n\nCreated Tab Views with Site Report\n\nData Entry report updated 11/25/2023."
   }
 ]
