@@ -35,7 +35,7 @@ website:
       Copyright by Kevin Gilds 2023 
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
-      [View the source at {{< fa brands github >}} GitHub https://github.com/kgilds/getrealwiki) 
+      View the source at {{< fa brands github >}}[Github](https://github.com/kgilds/getrealwiki) 
   
  
 
