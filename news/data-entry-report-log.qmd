@@ -7,6 +7,14 @@ categories: [Data Entry Report]
 # Log
 
 ::: callout-note
+## Attendance Q2 Site information displayed
+
+January 20th
+
+Added Q2 site information to the report.
+:::
+
+::: callout-note
 # Updated Visuals
 
 December 18-December 23
