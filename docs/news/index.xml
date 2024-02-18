@@ -10,7 +10,7 @@
 <atom:link href="https://kgilds.github.io/getrealwiki/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Updates for Get REAL!</description>
 <generator>quarto-1.4.536</generator>
-<lastBuildDate>Sat, 02 Dec 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 18 Feb 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Announcements and updates</title>
   <link>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</link>
@@ -21,6 +21,19 @@
 
 <section id="log" class="level1">
 <h1>Log</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Updated Sites
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Made update to reflect updated site information for Girl Surveys.</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -73,7 +86,7 @@ Updated data
  ]]></description>
   <category>Data Entry Report</category>
   <guid>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</guid>
-  <pubDate>Sat, 02 Dec 2023 05:00:00 GMT</pubDate>
+  <pubDate>Sun, 18 Feb 2024 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,10 +1,16 @@
 ---
 title: "Announcements and updates"
-date: 2023-12-02
+date: 2024-02-18
 categories: [Data Entry Report]
 ---
 
 # Log
+
+::: callout-note
+## Updated Sites
+
+Made update to reflect updated site information for Girl Surveys.
+:::
 
 ::: callout-note
 ## Attendance Q2 Site information displayed
