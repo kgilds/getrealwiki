@@ -7,6 +7,14 @@ categories: [Data Entry Report]
 # Log
 
 ::: callout-note
+# Attendance Q3 Site information displayed
+
+2024-03
+
+Added Q2 site information to the report.
+:::
+
+::: callout-note
 ## Updated Sites
 
 Made update to reflect updated site information for Girl Surveys.
