@@ -7,16 +7,21 @@
       description: Link to Girl Survey Form . 
       href: https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_d4pSdZEED8mpIKG
       thumbnail: /img/girl-survey.png
-    - title: Attendance Tracking
+    - title: Attendance 
       subtitle: Click on the green link
       href: https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_4HgD6ZY4hR8aUDQ
       code: 
       thumbnail: /img/Attendance.png
-    - title: Session Summary Tracking
+    - title: Session Summary 
       subtitle: Click on the green link
       href:  https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_eD1FxWzpJ6z825E
       code:  
       thumbnail: /img/Session-Summary.png
+    - title: Grade Promotion 
+      subtitle: Click on the green link
+      href:  https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_77XMuhM0KtDAJz8
+      code:  
+      thumbnail: /img/Grade-Promo.png
    
 - category: Resources
   description: |
