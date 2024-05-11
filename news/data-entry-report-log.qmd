@@ -1,10 +1,18 @@
 ---
 title: "Announcements and updates"
-date: 2024-02-18
+date: 2024-05-11
 categories: [Data Entry Report]
 ---
 
 # Log
+
+::: callout-note
+## 2024-05-11-Update
+
+-   Added Q4 Sites to attendance section
+
+-   Added Grade Promotion data
+:::
 
 ::: callout-note
 # Attendance Q3 Site information displayed
