@@ -15,17 +15,17 @@ description: |
   Hub for Get REAL! 
 ---
 
-::: {#hero-banner .column-screen}
-::: {.grid .column-page}
-::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
+:::::: {#hero-banner .column-screen}
+::::: {.grid .column-page}
+:::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
 ::: h1
 Hub for Get REAL!
 :::
 
 Membership Year 23-24
-:::
-:::
-:::
+::::
+:::::
+::::::
 
 <br>
 
@@ -34,7 +34,6 @@ Membership Year 23-24
 ::: {#gallery .column-page}
 :::
 
-```{=html}
 <style>
 #hero-banner {
   padding-top: 35px;
@@ -79,6 +78,5 @@ padding-bottom: 1em;
   
 }
 </style>
-```
 
 ------------------------------------------------------------------------

@@ -29,12 +29,12 @@ feed_url <- paste0(base_url, "/", feed_name)
 ::: {#news-table}
 :::
 
-::: callout-tip
+:::::: callout-tip
 ## Subscribe!
 
 You can use a feed reader like [Feedly](https://feedly.com/) or use an [RSS-to-email service](https://www.google.com/search?q=rss+to+email) like [Blogtrottr](https://blogtrottr.com/) to subscribe to these updates and messages. I'll also e-mail out links to them when there are new updates.
 
-::: grid
+::::: grid
 ::: {.g-col-12 .g-col-md-2}
 <p class="download-btn">
 
@@ -46,5 +46,5 @@ You can use a feed reader like [Feedly](https://feedly.com/) or use an [RSS-to-e
 ::: {.g-col-12 .g-col-md-10}
 <p><input class="form-control" type="text" value="`r feed_url`" onclick="this.select()" readonly></p>
 :::
-:::
-:::
+:::::
+::::::
