@@ -1,5 +1,5 @@
 ---
-pagetitle: "Get REAL! 23-24"
+pagetitle: "Get REAL! 24-25"
 format:
   html:
     toc: false
@@ -22,7 +22,7 @@ description: |
 Hub for Get REAL!
 :::
 
-Membership Year 23-24
+Membership Year 24-25
 ::::
 :::::
 ::::::
