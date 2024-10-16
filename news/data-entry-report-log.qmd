@@ -7,6 +7,14 @@ categories: [Data Entry Report]
 # Log
 
 ::: callout-note
+### 2024-10-16
+
+-   Updated home page with updated links.
+
+-   New Data Entry/Survey Forms.
+:::
+
+::: callout-note
 ## 2024-05-11-Update
 
 -   Added Q4 Sites to attendance section
