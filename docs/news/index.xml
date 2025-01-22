@@ -9,8 +9,8 @@
 <link>https://kgilds.github.io/getrealwiki/news/</link>
 <atom:link href="https://kgilds.github.io/getrealwiki/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Updates for Get REAL!</description>
-<generator>quarto-1.5.56</generator>
-<lastBuildDate>Sat, 11 May 2024 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Wed, 16 Oct 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Announcements and updates</title>
   <link>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</link>
@@ -132,7 +132,7 @@ Updated data
  ]]></description>
   <category>Data Entry Report</category>
   <guid>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</guid>
-  <pubDate>Sat, 11 May 2024 04:00:00 GMT</pubDate>
+  <pubDate>Wed, 16 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
