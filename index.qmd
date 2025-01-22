@@ -34,6 +34,7 @@ Membership Year 24-25
 ::: {#gallery .column-page}
 :::
 
+```{=html}
 <style>
 #hero-banner {
   padding-top: 35px;
@@ -78,5 +79,6 @@ padding-bottom: 1em;
   
 }
 </style>
+```
 
 ------------------------------------------------------------------------
