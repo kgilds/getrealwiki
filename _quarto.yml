@@ -20,6 +20,14 @@ website:
             file: data-entry-report.html
           - text: "Pre-Outcome Report"
             file: encrypted/Pre-Outcome-Report.html
+          - text: "Citrus Council"
+            file: encrypted/Citrus-Pre-Outcome-Report.html
+          - text: "Gateway Council"
+            file: encrypted/Gateway-Pre-Outcome-Report.html
+          - text: "GSWCF Council"
+            file: encrypted/WCF-Pre-Outcome-Report.html
+          - text: "Southeast Council"
+            file: encrypted/Southeast-Pre-Outcome-Report.html
       - text: "News"
         file: news/index.qmd
   
