@@ -3,34 +3,34 @@ project:
   output-dir: docs
   post-render: encrypt.r
   
-
 website:
   title: "getrealwiki"
   page-navigation: true
   site-url: "https://kgilds.github.io/getrealwiki"
  
   navbar:
-      right:
-        - text: "Home"
-          file: index.qmd
-        - text: "About"
-          file: faq.qmd
-        - text: "News"
-          file: news/index.qmd
-        - text: "Reports"
-          file: data-entry-report.html
-          
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: faq.qmd
+      - text: "Reports"
+        menu:
+          - text: "Data Entry Report"
+            file: data-entry-report.html
+          - text: "Pre-Outcome Report"
+            file: encrypted/Pre-Outcome-Report.html
+      - text: "News"
+        file: news/index.qmd
+  
   sidebar:
     - title: "About"
       collapse-level: 2
-      
       contents:
         - faq.qmd
         - about-evaluator.qmd
         - about-get-real.qmd
         
-          
-          
   page-footer:
     left: |
       Copyright by Kevin Gilds 2023 
@@ -38,13 +38,9 @@ website:
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
       View the source at {{< fa brands github >}}[Github](https://github.com/kgilds/getrealwiki) 
   
- 
-
 format:
   html:
     theme: minty
     css: styles.css
     toc: true
-
 editor: visual
-
