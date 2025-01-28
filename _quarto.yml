@@ -18,6 +18,8 @@ website:
         menu:
           - text: "Data Entry Report"
             file: data-entry-report.html
+          - text: "Session Summary Report"
+            file: encrypted/session-summary.html
           - text: "Pre-Outcome Report"
             file: encrypted/Pre-Outcome-Report.html
           - text: "Citrus Council"
