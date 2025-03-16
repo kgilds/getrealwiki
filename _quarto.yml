@@ -16,6 +16,8 @@ website:
         file: faq.qmd
       - text: "Reports"
         menu:
+          - text: "Data Entry Dashboard"
+            file: dashboard.html
           - text: "Data Entry Report"
             file: data-entry-report.html
           - text: "Session Summary Report"
