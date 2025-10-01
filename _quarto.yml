@@ -29,8 +29,10 @@ website:
       collapse-level: 2
       contents:
         - faq.qmd
+        - data-entry.qmd
         - about-evaluator.qmd
         - about-get-real.qmd
+        
         
   page-footer:
     left: |
