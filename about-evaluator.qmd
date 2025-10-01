@@ -8,7 +8,7 @@ title: "About Evaluator"
 
 -   🔭I enjoy processing data and automating tasks.
 -   💬: Ask me about your Get REAL! Data.
--   📫: How to reach me: [kevin.gilds\@hey.com](mailto:kevin.gilds@hey.com)
+-   📫: How to reach me: [kevingilds\@gmail.com](mailto:kevingilds@gmail.com)
 -   😃: Pronouns: he/him
 
 ### Technical Skills

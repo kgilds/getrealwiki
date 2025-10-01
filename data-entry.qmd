@@ -1,0 +1,92 @@
+---
+title: "Guide"
+---
+
+```{r echo=FALSE}
+library(tibble)
+library(gt)
+```
+
+
+
+```{r}
+#| label: objectives
+#| echo: FALSE
+#| message: true
+#| warning: false
+#| paged-print: true
+outcome_goals <- tribble(
+  ~outcome, ~objective, ~tool,
+  "Increased Guided Reading and Writing", "75%", "Session Summary Form",
+  "Grade Promotion", "90%", "grade promotion Form",
+  "Decrease in Absenteeism", "60%", "Attendance Tracking Form", 
+  "Sense of Self", "80%", "Girl Survey",
+  "Positive Values", "75%", "Girl Survey",
+  "Challenge Seeking", "62%", "Girl Survey",
+  "Healthy Relationships", "60%", "Girl Survey",
+  "Community Problem Solving", "57%",  "Girl Survey"
+) 
+
+outcome_goals %>% 
+  gt::gt() %>% 
+  #gt::cols_hide(3) %>%
+  tab_header(
+    title = md("**Get REAL! Objectives**")
+  ) %>%
+  
+  gtExtras::gt_theme_538(quiet = TRUE) -> outcome_goals_tbl
+
+outcome_goals_tbl
+
+```
+
+
+
+# Data Entry Guide
+
+## Session Summary
+This data measures progress toward the objective **Increased Guided Reading and Writing**. The session summary tracks your activities throughout the year.
+
+**When to enter:** Update regularly throughout the program year to maintain accurate records.
+
+**Best practice:** Enter session data after each meeting or weekly
+
+---
+
+## Girl Survey
+This data measures the **Life Skills Objectives**.
+
+Pre and post surveys are essential for measuring participant outcomes in the Get REAL! program.
+
+**When to enter:** 
+- **Pre-survey:** At program start or when a girl joins
+- **Post-survey:** At program conclusion or when a girl completes the program
+
+*Note: Surveys can be entered at any time, but both pre and post surveys are required for each participant.*
+
+---
+
+## Attendance
+This data measures the **Decreased Absenteeism** objective.
+
+**When to enter:**  - **Minimum requirement:** Enter attendance at two data points (e.g., Quarter 1 and Quarter 4, or baseline and endpoint of program participant)
+
+**Best practice:** Enter attendance data regularly
+
+---
+
+## Grade Promotion
+Grade promotion status confirms academic progress for program participants.
+
+**When to enter:** At the end of the school year once promotion status is confirmed, or as soon as you receive this information.
+
+---
+### Data Entry Reports
+Nearly every Saturday, data is pulled from Qualtrics and data entry reports are generated for each data source. An email will be sent with a link to your report.
+During the data pull, data quality is assessed and duplicate entries are identified and reported.
+
+### Questions
+If you have questions, concerns, or want to review your data, email me at kevingilds@gmail.com and I will send you a CSV file with the requested information.
+
+
+

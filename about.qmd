@@ -2,23 +2,17 @@
 title: "Evaluator"
 ---
 
-
-
-
 ### Hi there 👋🏻: my name is Kevin
 
 ![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=Freelancer&logoColor=white)
 
-My expertise is  in helping nonprofits collect, manage and analyze their program data. I learned data science techniques to make these jobs better.
+My expertise is in helping nonprofits collect, manage and analyze their program data. I learned data science techniques to make these jobs better.
 
 -   🔭I enjoy processing data and automating tasks.
--   💬: Ask me about your Get REAL! Data. 
--   📫: How to reach me: [kevin.gilds\@hey.com](mailto:kevin.gilds@hey.com)
+-   💬: Ask me about your Get REAL! Data.
+-   📫: How to reach me: kevingilds\@gmail.com
 -   😃: Pronouns: he/him
 
 ### Technical Skills
 
-![R](https://img.shields.io/badge/r-%2523276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%2523000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Git](https://img.shields.io/badge/git-%2523F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Qualtrics](https://img.shields.io/static/v1?style=for-the-badge&message=Qualtrics&color=222222&logo=Qualtrics&logoColor=00B4EF&label=)
-
-
+![R](https://img.shields.io/badge/r-%2523276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%2523000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Git](https://img.shields.io/badge/git-%2523F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Qualtrics](https://img.shields.io/static/v1?style=for-the-badge&message=Qualtrics&color=222222&logo=Qualtrics&logoColor=00B4EF&label=)
