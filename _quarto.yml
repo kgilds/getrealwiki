@@ -18,9 +18,6 @@ website:
         menu:
           - text: "Data Entry Dashboard"
             file: dashboard.html
-          - text: "Data Entry Report"
-            file: data-entry-report.html
-         
       - text: "News"
         file: news/index.qmd
   
