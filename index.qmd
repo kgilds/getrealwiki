@@ -1,5 +1,5 @@
 ---
-pagetitle: "Get REAL! 24-25"
+pagetitle: "Get REAL!"
 format:
   html:
     toc: false
