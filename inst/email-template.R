@@ -21,11 +21,9 @@ mail_template <- compose_email(
     
     "🔗 **[Access Dashboard]({https://kgilds.github.io/getrealwiki/dashboard.html})**",
     
-    "",
-    "📊 **[Data Entry Report]({https://kgilds.github.io/getrealwiki/data-entry-report.html})**,
     
     
-    The purpose of these reports is to help you review your data entry, take action on the informatin, and/ or ask me for clarification on your data.
+    "The purpose of these reports is to help you review your data entry, take action on the informatin, and/ or ask me for clarification on your data.
     
     If someone needs to be added this email, please send me their contact information.
     
@@ -68,19 +66,18 @@ dashboard_url <- "https://kgilds.github.io/getrealwiki/dashboard.html"
 report_url <- "https://kgilds.github.io/getrealwiki/data-entry-report.html"
 
 email_content <- glue("
-# Get REAL! Data Entry Reports
 
-Data Entry Reports have been updated as of August 8th, 2025. 
+## Get REAL! Data Entry Reports
+
+Data Entry Reports have been updated as of October 31, 2025. 
 
 **Dashboard** 🔗:[Access Dashboard]({dashboard_url})
 
-**Data Entry Report** 📊: [Access Report]({report_url})
-
-The purpose of these reports is to help you review your data entry, take action on the informatin, and/ or ask me for clarification on your data.
+The purpose of the dashboard is to help you review your data entry, take action on the information, and/ or ask me for clarification on your data.
     
 If someone needs to be added this email, please send me their contact information.
     
-Data entry is closed and surveys expired. 
+
     
 Thank you
 
@@ -90,7 +87,7 @@ Kevin
 ")
 
 footer_content <- glue(" 
-  Get REAL! Reporting MY: 2024-2025
+  Get REAL! Reporting MY: 2025-2026
   
   Developed by Kevin Gilds, MPA"
   
@@ -100,7 +97,7 @@ compose_email(body = md(email_content),
               footer = md(footer_content)) %>% 
   smtp_send(
     from = "kevingilds@gmail",
-    to = getreal_email,
+    to = "kevingilds@gmail.com",
     subject = "Get REAL! Data Updates",
     credentials = creds_file("gmail_creds")
   )

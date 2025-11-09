@@ -10,7 +10,7 @@
 <atom:link href="https://kgilds.github.io/getrealwiki/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Updates for Get REAL!</description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Wed, 16 Oct 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 09 Nov 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Announcements and updates</title>
   <link>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</link>
@@ -21,6 +21,28 @@
 
 <section id="log" class="level1">
 <h1>Log</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+2025-11-09
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<pre><code>Added Information Card in blude containing meta information to include
+
+-   Data Pulled from Qualtrics
+
+-   Last data entry date
+
+-   Last Council to enter data</code></pre>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"></h3>
+</section>
+</div>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -145,7 +167,7 @@ Updated data
  ]]></description>
   <category>Data Entry Report</category>
   <guid>https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html</guid>
-  <pubDate>Wed, 16 Oct 2024 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 09 Nov 2025 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,10 +1,26 @@
 ---
 title: "Announcements and updates"
-date: 2024-10-16
+date: 2025-11-09
 categories: [Data Entry Report]
 ---
 
 # Log
+
+::: callout-note
+## 2025-11-09
+
+```         
+Added Information Card in blude containing meta information to include
+
+-   Data Pulled from Qualtrics
+
+-   Last data entry date
+
+-   Last Council to enter data
+```
+
+### 
+:::
 
 ::: callout-note
 ### 2025-03-16
