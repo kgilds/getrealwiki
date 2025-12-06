@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Hub for Get REAL!">
 
-<title>Guide – getrealwiki</title>
+<title>Get REAL! – getrealwiki</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./about-evaluator.html" rel="next">
-<link href="./faq.html" rel="prev">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,12 +72,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-category","listing-description","listing-tiles"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -94,11 +153,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./faq.html" aria-current="page"> 
+    <a class="nav-link" href="./faq.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -122,652 +181,173 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data-entry.html">Guide</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./faq.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAQ</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./data-entry.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Guide</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about-evaluator.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About Evaluator</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about-get-real.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About Get REAL!</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-entry-guide" id="toc-data-entry-guide" class="nav-link active" data-scroll-target="#data-entry-guide">Data Entry Guide</a>
-  <ul class="collapse">
-  <li><a href="#session-summary" id="toc-session-summary" class="nav-link" data-scroll-target="#session-summary">Session Summary</a></li>
-  <li><a href="#girl-survey" id="toc-girl-survey" class="nav-link" data-scroll-target="#girl-survey">Girl Survey</a></li>
-  <li><a href="#attendance" id="toc-attendance" class="nav-link" data-scroll-target="#attendance">Attendance</a></li>
-  <li><a href="#grade-promotion" id="toc-grade-promotion" class="nav-link" data-scroll-target="#grade-promotion">Grade Promotion</a>
-  <ul class="collapse">
-  <li><a href="#data-entry-reports" id="toc-data-entry-reports" class="nav-link" data-scroll-target="#data-entry-reports">Data Entry Reports</a></li>
-  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Guide</h1>
+
+
+
+<div id="hero-banner" class="column-screen page-columns page-full">
+<div class="grid column-page">
+<div class="headline g-col-lg-6 g-col-12 g-col-md-12">
+<div class="h1">
+<p>Hub for Get REAL!</p>
+</div>
+<p>Membership Year 25-26</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<h3 class="anchored">
+This website is designed to coordinate information and resources to evaluate the Get REAL! Program
+</h3>
+<div id="listing-gallery" class="column-page quarto-listing quarto-listing-container-custom">
+
+<h2 class="anchored">Data Entry Forms</h2>
+<p>Qualtrics Data Entry Forms
+</p>
+<div class="list grid" style="column-gap: 10px;">
+
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_cviLympWhjBVgIS" class="listing-title">Girl Survey</a> <span class="text-muted listing-subtitle">Click on the green link</span>
+      </small>
+       
+    </div>
+    <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_cviLympWhjBVgIS">
+      <img src="./img/2025-10-01-Girl-Survey.png" alt="Link to Girl Survey Form." class="card-img-top">
+    </a>
+    
+    
+    
+  </div>
+
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_aV0vZ1qXxgYzZ4O" class="listing-title">Attendance</a> <span class="text-muted listing-subtitle">Click on the green link</span>
+      </small>
+       
+    </div>
+    <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_aV0vZ1qXxgYzZ4O">
+      <img src="./img/2025-09-30-Attendance-Fom.png" alt="" class="card-img-top">
+    </a>
+    
+    
+    
+  </div>
+
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_9zgHOTPupwPoqPk" class="listing-title">Session Summary</a> <span class="text-muted listing-subtitle">Click on the green link</span>
+      </small>
+       
+    </div>
+    <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_9zgHOTPupwPoqPk">
+      <img src="./img/2025-09-30-Session-Summary-Form.png" alt="" class="card-img-top">
+    </a>
+    
+    
+    
+  </div>
+
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_5C0Ur6M9tinKK1g" class="listing-title">Grade Promotion</a> <span class="text-muted listing-subtitle">Click on the green link</span>
+      </small>
+       
+    </div>
+    <a href="https://girlscoutsusa.ca1.qualtrics.com/jfe/form/SV_5C0Ur6M9tinKK1g">
+      <img src="./img/2025-09-30-Grade-Promotion.png" alt="" class="card-img-top">
+    </a>
+    
+    
+    
+  </div>
+
 </div>
 
+<h2 class="anchored">Resources</h2>
+<p>Resources
+</p>
+<div class="list grid" style="column-gap: 10px;">
 
-
-<div class="quarto-title-meta">
-
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://gsusa.app.box.com/s/myd2mm5ch25o1l2zv6zwyc8gtyshdbtf/file/97385288160?sb=/details" class="listing-title">Survey Methods from GSRI</a> <span class="text-muted listing-subtitle"></span>
+      </small>
+       
+    </div>
+    <a href="https://gsusa.app.box.com/s/myd2mm5ch25o1l2zv6zwyc8gtyshdbtf/file/97385288160?sb=/details">
+      <img src="./img/Survey-FAQ.png" alt="FAQ" class="card-img-top">
+    </a>
     
-  
+    
     
   </div>
-  
 
+</div>
 
-</header>
-
-
-<div class="cell">
-<div class="cell-output-display">
-<div id="fwogpmxzdn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cairo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-#fwogpmxzdn table {
-  font-family: Cairo, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<style>
+#hero-banner {
+  padding-top: 35px;
+  background-color: rgb(237,243,249);
 }
-
-#fwogpmxzdn thead, #fwogpmxzdn tbody, #fwogpmxzdn tfoot, #fwogpmxzdn tr, #fwogpmxzdn td, #fwogpmxzdn th {
-  border-style: none;
-}
-
-#fwogpmxzdn p {
-  margin: 0;
-  padding: 0;
-}
-
-#fwogpmxzdn .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: none;
-  border-top-width: 3px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-#fwogpmxzdn .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-#fwogpmxzdn .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#fwogpmxzdn .gt_heading {
-  background-color: #FFFFFF;
-  text-align: left;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_bottom_border {
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_col_headings {
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #000000;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#fwogpmxzdn .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#fwogpmxzdn .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#fwogpmxzdn .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#fwogpmxzdn .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #000000;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#fwogpmxzdn .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-
-#fwogpmxzdn .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #000000;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-
-#fwogpmxzdn .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: none;
-  border-top-width: 2px;
-  border-top-color: #000000;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #FFFFFF;
-  vertical-align: middle;
-}
-
-#fwogpmxzdn .gt_from_md > :first-child {
+#quarto-content main { 
   margin-top: 0;
+  padding-top: 0;
 }
-
-#fwogpmxzdn .gt_from_md > :last-child {
-  margin-bottom: 0;
+html {
+  scroll-behavior: smooth;
 }
-
-#fwogpmxzdn .gt_row {
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
+.headline {
+font-size: 1.25em;
+font-weight: 300;
+padding-bottom: 1em;
 }
-
-#fwogpmxzdn .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 0px;
-  border-right-color: #FFFFFF;
-  padding-left: 5px;
-  padding-right: 5px;
+.headline p {
+  margin: 0;
+  padding-bottom: 0.2rem;
 }
-
-#fwogpmxzdn .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
+.headline a {
+  text-decoration: none;
 }
-
-#fwogpmxzdn .gt_row_group_first td {
-  border-top-width: 2px;
+.headline ul li {
+  margin-bottom: 0.3em;
 }
-
-#fwogpmxzdn .gt_row_group_first th {
-  border-top-width: 2px;
+.carousel.card {
+  padding-top: 2em;
 }
-
-#fwogpmxzdn .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
+.carousel img {
+  width: 70%;
+  margin-bottom: 110px;
 }
-
-#fwogpmxzdn .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  margin-bottom: 110px;
 }
-
-#fwogpmxzdn .gt_first_summary_row.thick {
-  border-top-width: 2px;
+.carousel-caption {
+  padding-top: 1em;
 }
-
-#fwogpmxzdn .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#fwogpmxzdn .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-#fwogpmxzdn .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#fwogpmxzdn .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#fwogpmxzdn .gt_sourcenote {
-  font-size: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#fwogpmxzdn .gt_left {
-  text-align: left;
-}
-
-#fwogpmxzdn .gt_center {
-  text-align: center;
-}
-
-#fwogpmxzdn .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#fwogpmxzdn .gt_font_normal {
-  font-weight: normal;
-}
-
-#fwogpmxzdn .gt_font_bold {
-  font-weight: bold;
-}
-
-#fwogpmxzdn .gt_font_italic {
-  font-style: italic;
-}
-
-#fwogpmxzdn .gt_super {
-  font-size: 65%;
-}
-
-#fwogpmxzdn .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-
-#fwogpmxzdn .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-#fwogpmxzdn .gt_indent_1 {
-  text-indent: 5px;
-}
-
-#fwogpmxzdn .gt_indent_2 {
-  text-indent: 10px;
-}
-
-#fwogpmxzdn .gt_indent_3 {
-  text-indent: 15px;
-}
-
-#fwogpmxzdn .gt_indent_4 {
-  text-indent: 20px;
-}
-
-#fwogpmxzdn .gt_indent_5 {
-  text-indent: 25px;
-}
-
-#fwogpmxzdn .katex-display {
-  display: inline-flex !important;
-  margin-bottom: 0.75em !important;
-}
-
-#fwogpmxzdn div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
-  height: 0px !important;
-}
-
-#fwogpmxzdn tbody tr:last-child {
-  border-bottom: 2px solid #ffffff00;
+.touch {
+  
 }
 </style>
-
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead>
-<tr class="gt_heading header">
-<th colspan="3" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="font-family: Chivo; font-weight: 700"><strong>Get REAL! Objectives</strong></th>
-</tr>
-<tr class="gt_col_headings even">
-<th id="outcome" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-top-width: 0px; border-top-style: solid; border-top-color: black; font-family: Chivo; font-size: 14px; vertical-align: bottom; font-weight: 200; text-transform: uppercase" scope="col">outcome</th>
-<th id="objective" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="border-top-width: 0px; border-top-style: solid; border-top-color: black; font-family: Chivo; font-size: 14px; vertical-align: bottom; font-weight: 200; text-transform: uppercase" scope="col">objective</th>
-<th id="tool" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-top-width: 0px; border-top-style: solid; border-top-color: black; font-family: Chivo; font-size: 14px; vertical-align: bottom; font-weight: 200; text-transform: uppercase" scope="col">tool</th>
-</tr>
-</thead>
-<tbody class="gt_table_body">
-<tr class="odd">
-<td class="gt_row gt_left" headers="outcome">Increased Guided Reading and Writing</td>
-<td class="gt_row gt_right" headers="objective">75%</td>
-<td class="gt_row gt_left" headers="tool">Session Summary Form</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="outcome">Grade Promotion</td>
-<td class="gt_row gt_right" headers="objective">90%</td>
-<td class="gt_row gt_left" headers="tool">grade promotion Form</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="outcome">Decrease in Absenteeism</td>
-<td class="gt_row gt_right" headers="objective">60%</td>
-<td class="gt_row gt_left" headers="tool">Attendance Tracking Form</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="outcome">Sense of Self</td>
-<td class="gt_row gt_right" headers="objective">80%</td>
-<td class="gt_row gt_left" headers="tool">Girl Survey</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="outcome">Positive Values</td>
-<td class="gt_row gt_right" headers="objective">75%</td>
-<td class="gt_row gt_left" headers="tool">Girl Survey</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="outcome">Challenge Seeking</td>
-<td class="gt_row gt_right" headers="objective">62%</td>
-<td class="gt_row gt_left" headers="tool">Girl Survey</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="outcome">Healthy Relationships</td>
-<td class="gt_row gt_right" headers="objective">60%</td>
-<td class="gt_row gt_left" headers="tool">Girl Survey</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="outcome">Community Problem Solving</td>
-<td class="gt_row gt_right" headers="objective">57%</td>
-<td class="gt_row gt_left" headers="tool">Girl Survey</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<section id="data-entry-guide" class="level1">
-<h1>Data Entry Guide</h1>
-<section id="session-summary" class="level2">
-<h2 class="anchored" data-anchor-id="session-summary">Session Summary</h2>
-<p>This data measures progress toward the objective <strong>Increased Guided Reading and Writing</strong>. The session summary tracks your activities throughout the year.</p>
-<p><strong>When to enter:</strong> Update regularly throughout the program year to maintain accurate records.</p>
-<p><strong>Best practice:</strong> Enter session data after each meeting or weekly</p>
 <hr>
-</section>
-<section id="girl-survey" class="level2">
-<h2 class="anchored" data-anchor-id="girl-survey">Girl Survey</h2>
-<p>This data measures the <strong>Life Skills Objectives</strong>.</p>
-<p>Pre and post surveys are essential for measuring participant outcomes in the Get REAL! program.</p>
-<p><strong>When to enter:</strong> - <strong>Pre-survey:</strong> At program start or when a girl joins - <strong>Post-survey:</strong> At program conclusion or when a girl completes the program</p>
-<p><em>Note: Surveys can be entered at any time, but both pre and post surveys are required for each participant.</em></p>
-<hr>
-</section>
-<section id="attendance" class="level2">
-<h2 class="anchored" data-anchor-id="attendance">Attendance</h2>
-<p>This data measures the <strong>Decreased Absenteeism</strong> objective.</p>
-<p><strong>When to enter:</strong> - <strong>Minimum requirement:</strong> Enter attendance at two data points (e.g., Quarter 1 and Quarter 4, or baseline and endpoint of program participant)</p>
-<p><strong>Best practice:</strong> Enter attendance data regularly</p>
-<hr>
-</section>
-<section id="grade-promotion" class="level2">
-<h2 class="anchored" data-anchor-id="grade-promotion">Grade Promotion</h2>
-<p>Grade promotion status confirms academic progress for program participants.</p>
-<p><strong>When to enter:</strong> At the end of the school year once promotion status is confirmed, or as soon as you receive this information.</p>
-<hr>
-<section id="data-entry-reports" class="level3">
-<h3 class="anchored" data-anchor-id="data-entry-reports">Data Entry Reports</h3>
-<p>Nearly every Saturday, data is pulled from Qualtrics and data entry reports are generated for each data source. An email will be sent with a link to your report. During the data pull, data quality is assessed and duplicate entries are identified and reported.</p>
-</section>
-<section id="questions" class="level3">
-<h3 class="anchored" data-anchor-id="questions">Questions</h3>
-<p>If you have questions, concerns, or want to review your data, email me at kevingilds@gmail.com and I will send you a CSV file with the requested information.</p>
 
 
-</section>
-</section>
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1169,18 +749,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./faq.html" class="pagination-link" aria-label="FAQ">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">FAQ</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./about-evaluator.html" class="pagination-link" aria-label="About Evaluator">
-        <span class="nav-page-text">About Evaluator</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

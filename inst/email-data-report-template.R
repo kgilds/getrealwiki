@@ -18,18 +18,20 @@ getreal_email <- c("aprater@gswcf.org",
 
 dashboard_url <- "https://kgilds.github.io/getrealwiki/dashboard.html"
 report_url <- "https://kgilds.github.io/getrealwiki/data-entry-report.html"
+log_url  <- "https://kgilds.github.io/getrealwiki/news/data-entry-report-log.html"
+
 
 email_content <- glue("
 
 ## Get REAL! Data Entry Updates
 
-Data Entry Reports have been updated as of October 31, 2025. 
+Data Entry Reports have been updated as of November 7, 2025. 
 
 **Dashboard** 🔗:[Access Dashboard]({dashboard_url})
 
 The purpose of the dashboard is to help you review your data entry, take action on the information, and/ or ask me for clarification on your data.
     
-Update {Limited data entry for the girl survey and no data entry for session summaries, and attendance data } 
+Thus far, Limited data entry for the girl survey and no data entry for session summaries, and attendance data 
 
 If someone needs to be added this email, please send me their contact information.
     

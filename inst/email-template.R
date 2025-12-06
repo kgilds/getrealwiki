@@ -17,7 +17,6 @@ mail_template <- compose_email(
     
     "Data Entry reports have been updated and can be found at the following links",
     
-    "",
     
     "🔗 **[Access Dashboard]({https://kgilds.github.io/getrealwiki/dashboard.html})**",
     

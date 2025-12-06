@@ -31,13 +31,13 @@
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<pre><code>Added Information Card in blude containing meta information to include
-
--   Data Pulled from Qualtrics
-
--   Last data entry date
-
--   Last Council to enter data</code></pre>
+<p>Added Information Card in blue containing meta information to include</p>
+<ul>
+<li><p>Data Pulled from Qualtrics</p></li>
+<li><p>Last data entry date</p></li>
+<li><p>Last Council to enter data</p></li>
+</ul>
+<pre><code></code></pre>
 <section id="section-1" class="level3">
 <h3 class="anchored" data-anchor-id="section-1"></h3>
 </section>
