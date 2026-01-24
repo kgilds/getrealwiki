@@ -55,21 +55,28 @@
     ]
   },
   {
-    "objectID": "news/data-entry-report-log.html",
-    "href": "news/data-entry-report-log.html",
-    "title": "Announcements and updates",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Evaluator",
     "section": "",
-    "text": "Log\n\n\n\n\n\n\n2025-11-09\n\n\n\nAdded Information Card in blue containing meta information to include\n\nData Pulled from Qualtrics\nLast data entry date\nLast Council to enter data\n\n\n\n\n\n\n\n\n\n\n\n\n\n2025-03-16\n\n\n\n*Added Dashboard Document; similar to Data entry report\n\n\n\n\n\n\n\n\n2024-10-16\n\n\n\n\nUpdated home page with updated links.\nNew Data Entry/Survey Forms.\n\n\n\n\n\n\n\n\n\n2024-05-11-Update\n\n\n\n\nAdded Q4 Sites to attendance section\nAdded Grade Promotion data\n\n\n\n\n\n\n\n\n\nAttendance Q3 Site information displayed\n\n\n\n2024-03\nAdded Q3 site information to the report.\n\n\n\n\n\n\n\n\nUpdated Sites\n\n\n\nMade update to reflect updated site information for Girl Surveys.\n\n\n\n\n\n\n\n\nAttendance Q2 Site information displayed\n\n\n\nJanuary 20th\nAdded Q2 site information to the report.\n\n\n\n\n\n\n\n\nUpdated Visuals\n\n\n\nDecember 18-December 23\nAdded visuals to display site information.\n\n\n\n\n\n\n\n\nUpdated data\n\n\n\nData Entry report updated 12/02/2023\n\nCreated Tab Views with Site Report\n\nData Entry report updated 11/25/2023."
+    "text": "Hi there 👋🏻: my name is Kevin\n\n\n\nFreelancer\n\n\nMy expertise is in helping nonprofits collect, manage and analyze their program data. I learned data science techniques to make these jobs better.\n\n🔭I enjoy processing data and automating tasks.\n💬: Ask me about your Get REAL! Data.\n📫: How to reach me: kevingilds@gmail.com\n😃: Pronouns: he/him\n\n\n\nTechnical Skills"
   },
   {
-    "objectID": "about-get-real.html",
-    "href": "about-get-real.html",
-    "title": "About Get REAL!",
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
     "section": "",
-    "text": "Girl Scout councils facilitate Get REAL!, a statewide mentoring program for middle school girls. The Get REAL! program aims to help at-risk middle school girls achieve academic success by connecting them to caring mentors in the community. Get REAL! is delivered through 30 small group mentoring sessions. The mentoring sessions provide support, intervention, and connection to other resources to help girls achieve success.\nThe participating councils include the following organizations:\n\nGirl Scouts of Citrus\nGirl Scout of Gateway Council\nGirl Scouts of Southeast Florida\nGirl Scouts of West Central Florida\n\nThe Girl Scout councils have partner with around 30 schools and after-school sites to deliver the program. Enrollment targets vary by quarter, with steady increases and a peak in Quarter 3 to serve 900 girls.",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nSunday November 9, 2025 at 12:00 AM\n\n\nAnnouncements and updates\n\n\nData Entry Report\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nSubscribe!\n\n\n\nYou can use a feed reader like Feedly or use an RSS-to-email service like Blogtrottr to subscribe to these updates and messages. I’ll also e-mail out links to them when there are new updates.\n\n\n\n RSS"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "We need to add a site\nEmail 📫:kevingilds@gmail.com and confirm what Girl Scout Council you are from.\n\nI strive to add sites within a business day.\n\nIf the site is still not showing up in the survey form Qualtrics: Email me again, and I will determine if I can reproduce the error.\n\nIf it is still an issue you may need to work with your IT to clear your web cache.\n\n\n\nData Entry\nData is pulled from Qualtrics every weekend usually Saturday.",
     "crumbs": [
       "About",
-      "About Get REAL!"
+      "FAQ"
     ]
   },
   {
@@ -84,28 +91,21 @@
     ]
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
+    "objectID": "about-get-real.html",
+    "href": "about-get-real.html",
+    "title": "About Get REAL!",
     "section": "",
-    "text": "We need to add a site\nEmail 📫:kevingilds@gmail.com and confirm what Girl Scout Council you are from.\n\nI strive to add sites within a business day.\n\nIf the site is still not showing up in the survey form Qualtrics: Email me again, and I will determine if I can reproduce the error.\n\nIf it is still an issue you may need to work with your IT to clear your web cache.\n\n\n\nData Entry\nData is pulled from Qualtrics every weekend usually Saturday.",
+    "text": "Girl Scout councils facilitate Get REAL!, a statewide mentoring program for middle school girls. The Get REAL! program aims to help at-risk middle school girls achieve academic success by connecting them to caring mentors in the community. Get REAL! is delivered through 30 small group mentoring sessions. The mentoring sessions provide support, intervention, and connection to other resources to help girls achieve success.\nThe participating councils include the following organizations:\n\nGirl Scouts of Citrus\nGirl Scout of Gateway Council\nGirl Scouts of Southeast Florida\nGirl Scouts of West Central Florida\n\nThe Girl Scout councils have partner with around 30 schools and after-school sites to deliver the program. Enrollment targets vary by quarter, with steady increases and a peak in Quarter 3 to serve 900 girls.",
     "crumbs": [
       "About",
-      "FAQ"
+      "About Get REAL!"
     ]
   },
   {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
+    "objectID": "news/data-entry-report-log.html",
+    "href": "news/data-entry-report-log.html",
+    "title": "Announcements and updates",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nSunday November 9, 2025 at 12:00 AM\n\n\nAnnouncements and updates\n\n\nData Entry Report\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nSubscribe!\n\n\n\nYou can use a feed reader like Feedly or use an RSS-to-email service like Blogtrottr to subscribe to these updates and messages. I’ll also e-mail out links to them when there are new updates.\n\n\n\n RSS"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Evaluator",
-    "section": "",
-    "text": "Hi there 👋🏻: my name is Kevin\n\n\n\nFreelancer\n\n\nMy expertise is in helping nonprofits collect, manage and analyze their program data. I learned data science techniques to make these jobs better.\n\n🔭I enjoy processing data and automating tasks.\n💬: Ask me about your Get REAL! Data.\n📫: How to reach me: kevingilds@gmail.com\n😃: Pronouns: he/him\n\n\n\nTechnical Skills"
+    "text": "Log\n\n\n\n\n\n\n2025-11-09\n\n\n\nAdded Information Card in blue containing meta information to include\n\nData Pulled from Qualtrics\nLast data entry date\nLast Council to enter data\n\n\n\n\n\n\n\n\n\n\n\n\n\n2025-03-16\n\n\n\n*Added Dashboard Document; similar to Data entry report\n\n\n\n\n\n\n\n\n2024-10-16\n\n\n\n\nUpdated home page with updated links.\nNew Data Entry/Survey Forms.\n\n\n\n\n\n\n\n\n\n2024-05-11-Update\n\n\n\n\nAdded Q4 Sites to attendance section\nAdded Grade Promotion data\n\n\n\n\n\n\n\n\n\nAttendance Q3 Site information displayed\n\n\n\n2024-03\nAdded Q3 site information to the report.\n\n\n\n\n\n\n\n\nUpdated Sites\n\n\n\nMade update to reflect updated site information for Girl Surveys.\n\n\n\n\n\n\n\n\nAttendance Q2 Site information displayed\n\n\n\nJanuary 20th\nAdded Q2 site information to the report.\n\n\n\n\n\n\n\n\nUpdated Visuals\n\n\n\nDecember 18-December 23\nAdded visuals to display site information.\n\n\n\n\n\n\n\n\nUpdated data\n\n\n\nData Entry report updated 12/02/2023\n\nCreated Tab Views with Site Report\n\nData Entry report updated 11/25/2023."
   }
 ]
